@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { urlFor } from '../lib/client'
+//import { urlFor } from '../lib/client'
 
 function FooterBanner({ footerBanner: {discount, desc, largeText1, largeText2, saleTime, midText, smallText, buttonText, product, image} }) {
   return (
@@ -21,8 +21,8 @@ function FooterBanner({ footerBanner: {discount, desc, largeText1, largeText2, s
           </Link>
         </div>
 
-        <img src={ urlFor(image) }
-        className='footer-banner-image' />
+        {/*<img src={ urlFor(image) }
+        className='footer-banner-image' />*/}
       </div>
     </div>
   )

@@ -1,16 +1,16 @@
 export default {
-    name: 'banner',
+    name: "banner",
     title: 'Banner',
     type: 'document',
     fields: [
-        {
-            name: 'image',
-            title: 'Image',
-            type: 'image',
-            options: {
-                hotspot: true,
-            },
-        },
+       // {
+       //     name: 'image',
+       //     title: 'Image',
+       //     type: 'image',
+       //     options: {
+       //         hotspot: true,
+       //     },
+       // },
         {
             name: 'buttonText',
             title: 'ButtonText',
@@ -27,7 +27,7 @@ export default {
             type: 'string',
         },
         {
-            name: 'smallText',
+            name: "smallText",
             title: 'SmallText',
             type: 'string',
         },
@@ -57,4 +57,4 @@ export default {
             type: 'string',
         },
     ],
-  };
+};
